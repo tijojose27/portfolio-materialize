@@ -1,6 +1,7 @@
 ﻿$(function () {
     // MAIN SITE FADING 
-    $("body").removeClass("fade-out");
+
+    $('body').css('opacity', '0').fadeTo(3000, 1, 'swing');
 
     //TRANSITION IN MAIN SECTION  --not implementing cuz cant get it to work--
     /*
