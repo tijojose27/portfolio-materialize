@@ -1,0 +1,53 @@
+﻿html, body {
+    height:100%;
+}
+
+/* HELPER FOR BODY FADE OUT DURING FIRST SITE LOAD*/
+body.fade-out{
+    opacity:0;
+    -webkit-transition:none;
+    transition:none;
+}
+
+body{
+    opacity:1;
+    -webkit-transition:4s opacity;
+    transition: 4s opacity;
+}
+
+/* END OF BODY FADING*/
+
+#cover{
+    background-image:url("../Images/Background/Optimized-cuttree.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    height:100%;
+    text-align:center;
+    display:flex;
+    align-items:center;
+}
+
+.title-text{
+    background-color:rgba(0,0,0,0.6);
+    color:white;
+    padding:1.2rem;
+    border-radius:10px;
+}
+
+#cover-caption{
+    width:100%;
+    font-size: 250%;
+}
+
+img{
+    max-width:100%;
+}
+
+#brand_imag{
+   height:5px;
+}
+
+.navbar-brand img{
+    height:32px;
+}
