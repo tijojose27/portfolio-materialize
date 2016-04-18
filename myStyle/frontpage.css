@@ -10,7 +10,7 @@ img{
 /*Cover Section*/
 
 #cover{
-    background-image:url("../Images/Background/Optimized-cuttree.jpg"); 
+    background-image:url("../Images/Background/stockvault-drawing-compasses-121507.jpg"); 
     background-repeat: no-repeat;
     background-position: center center;
     background-size:cover;
@@ -33,7 +33,6 @@ img{
 }
 
 /*Card SECTION*/
-
 #card-section{
-    background-color:#aa8d66;
+    background-color:lightgrey;
 }
