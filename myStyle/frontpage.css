@@ -3,6 +3,12 @@
 }
 
 
+img{
+    max-width:100%;
+}
+
+/*Cover Section*/
+
 #cover{
     background-image:url("../Images/Background/Optimized-cuttree.jpg"); 
     background-repeat: no-repeat;
@@ -26,14 +32,8 @@
     font-size: 250%;
 }
 
-img{
-    max-width:100%;
-}
+/*Card SECTION*/
 
-#brand_imag{
-   height:5px;
-}
-
-.navbar-brand img{
-    height:32px;
+#card-section{
+    background-color:#aa8d66;
 }
