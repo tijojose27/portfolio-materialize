@@ -3,6 +3,14 @@
 
     $('body').css('opacity', '0').fadeTo(3000, 1, 'swing');
 
+    //JAVASCRIPT HACK TO LESSEN SCREEN JUMPING in mobile devices
+    var bg = jQuery("#cover");
+    jQuery(window).resize("resizeBackground");
+    function resizeBackground() {
+        bg.height(jQuery(window).height() + 60);
+    }
+    resizeBackground();
+
     //TRANSITION IN MAIN SECTION  --not implementing cuz cant get it to work--
     /*
     setTimeout(function () {
@@ -15,5 +23,7 @@
     },5000);
     */
 
+    //ACTIVATING SLIDER IN NAVBAR
+    $(".button-collapse").sideNav();
 
 });

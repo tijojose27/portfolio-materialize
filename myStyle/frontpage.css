@@ -36,3 +36,9 @@ img{
 #card-section{
     background-color:lightgrey;
 }
+
+/*NAVBAR*/
+nav{
+    background-color:rgba(0,0,0,0.4);
+    color:lightyellow;
+}
